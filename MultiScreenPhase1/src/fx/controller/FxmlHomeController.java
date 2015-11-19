@@ -45,9 +45,9 @@ public class FxmlHomeController implements Initializable {
     
     String resource = "/fx/screen/FxmlLogin.fxml";
     FXMLLoader loader = new FXMLLoader(getClass().getResource(resource));
-    Parent logonScreen = (Parent) loader.load();
+    Parent homeScreen = (Parent) loader.load();
     
-    Scene scene = new Scene(logonScreen);
+    Scene scene = new Scene(homeScreen);
     stage.setScene(scene);
   }
 
